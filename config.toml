@@ -34,6 +34,9 @@ DefaultContentLanguage = "zh"
 [Author]
   Name = "兰陵子"
 
+[Params.Datatables]
+  selector = ".ox-hugo-table table"
+
 [Params.Share]
   #DuoShuo = "lanlingzi"
   Baidu = true
@@ -86,4 +89,4 @@ DefaultContentLanguage = "zh"
 [[Params.Socials]]
   Name = "知乎"
   Icon = "globe"
-  URL = "https://www.zhihu.com/people/lan-ling-xin-yun"  
+  URL = "https://www.zhihu.com/people/lan-ling-xin-yun"
