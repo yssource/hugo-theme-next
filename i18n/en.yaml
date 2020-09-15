@@ -3,13 +3,13 @@
 - id: StatsTags
   translation: Total {{ len .Data.Terms }} tags
 - id: StatsBlogs
-  translation: Well! Total {{ .Count }} blogs, let's press on. 
+  translation: Well! Total {{ .Count }} blogs, let's press on.
 - id: Blog
   translation: Blogs
 - id: Category
   translation: Categories
 - id: Archive
-  translation: Archive 
+  translation: Archive
 - id: Tag
   translation: Tags
 - id: ToC
@@ -19,9 +19,11 @@
 - id: SiteInfo
   translation: Site Information
 - id: Link
-  translation: Links 
-- id: Time
+  translation: Links
+- id: PublishDate
   translation: Published at
+- id: LastModDate
+  translation: Updated at
 - id: View
   translation: Reading
 - id: ReadMore
@@ -29,6 +31,6 @@
 - id: ReadingTime
   translation: "{{ .WordCount }} words ~{{ .ReadingTime }}min"
 - id: Colon
-  translation: ":" 
+  translation: ":"
 - id: Search
-  translation: "Search" 
+  translation: "Search"
